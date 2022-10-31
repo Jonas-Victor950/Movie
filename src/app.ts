@@ -6,6 +6,9 @@ const app = express()
 // JSON middeware
 app.use(express.json());
 
+// DB
+import db from "../config/db"
+
 // Routes 
 import router from "./router"
 
@@ -15,5 +18,6 @@ app.use("/api/", router)
 const port = config.get<number>("port")
 
 app.listen(3000, async () => {
+    await db()
     console.log(`Aplicação está funcionando na porta: ${port}`)
 })
