@@ -48,3 +48,9 @@
 [35m[39m
 2022-10-31 19:52:20 - [35mhttp[39m: [35mGET /api/test 200 11 - 0.355 ms[39m
 [35m[39m
+2022-11-01 10:18:51 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2022-11-01 10:18:51 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-01 10:18:56 - [35mhttp[39m: [35mPOST /api/movie 200 22 - 2.528 ms[39m
+[35m[39m
+2022-11-01 10:19:29 - [35mhttp[39m: [35mPOST /api/movie 200 22 - 0.538 ms[39m
+[35m[39m
